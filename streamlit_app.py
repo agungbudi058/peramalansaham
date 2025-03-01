@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.arima.model import ARIMA
 from prophet import Prophet
 from prophet.plot import plot_plotly
+import plotly.graph_objs as go  # Import Plotly's graph_objs module
 
 # Page title
 st.title("Time Series Forecasting with Prophet and ARIMA")
